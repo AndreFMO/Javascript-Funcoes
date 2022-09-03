@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>Herois</title>
+</head>
+
+<body>
+    <table border="1" bgcolor="#ffffff">
+        <tr bgcolor="#000000">
+            <th>
+                <p id="tmudar">Mudar de Herói?</p>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr bgcolor="#000000">
+                        <td>
+                            <p id="tmudar">Universo Marvel</p>
+                        </td>
+                        <td>
+                            <p id="tmudar">Universo DC</p>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#000000">
+                        <td>
+                            <script type="text/javascript">
+                                document.write("<p id='opc'><input type='radio' name='opth' value='HdF'>Homem de Ferro</p>");
+                                document.write("<p id='opc'><input type='radio' name='opth' value='HA'>Homem Aranha</p>");
+                                document.write("<p id='opc'><input type='radio' name='opth' value='CA'>Capitão America</p>");
+                                document.write("<p id='opc'><input type='radio' name='opth' value='H'>Hulk</p>");
+                                document.write("<p id='opc'><input type='radio' name='opth' value='VN'>Viúva Negra</p>");
+                            </script>
+                        </td>
+                        <td>
+                            <script type="text/javascript">
+                            document.write("<p id='opc'><input type='radio' name='opth' value='HdF'>Superman</p>");
+                            document.write("<p id='opc'><input type='radio' name='opth' value='HA'>Batman</p>");
+                            document.write("<p id='opc'><input type='radio' name='opth' value='CA'>Mulher Maravilha</p>");
+                            document.write("<p id='opc'><input type='radio' name='opth' value='H'>Flash</p>");
+                            document.write("<p id='opc'><input type='radio' name='opth' value='VN'>Aquaman</p>");
+                            </script>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr bgcolor="#000000">
+            <td>
+                <button id='bt' onclick='funcCalc()'>MUDAR</button>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

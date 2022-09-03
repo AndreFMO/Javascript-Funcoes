@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+img{
+    height:380px;
+    display: block;
+    margin: auto;
+}
+
+#tb{
+    height: 400px;
+    width: 300px;
+}
+
+#tb2{
+    height: auto;
+    width: auto;
+}
+
+#td{
+    align-items: center;
+}
+
+#nomeh{
+    color:white;
+    text-align: center;
+    font-size: 35px;
+}
+
+#tmudar{
+    color:white;
+    font-size: 20px;
+}
+
+#bt{
+    display: block;
+    margin: auto;
+}
+
+#opc{
+    color:white;
+    font-size: 15px;
+}
