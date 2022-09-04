@@ -77,51 +77,61 @@ function funcMudarH() {
         document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />");
         document.write("<p id='nomeh'>Você escolheu o homem de ferro!</p>");
         document.write("<br><img src=img/homem-de-ferro.png>");
+        document.write("<button id='bt1' onclick='funcReset()'>RECOMEÇAR</button>");
     }
     else if (mheroi == "HA") {
         document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />");
         document.write("<p id='nomeh'>Você escolheu o homem aranha!</p>");
         document.write("<br><img src=img/homem-aranha.png>");
+        document.write("<button id='bt1' onclick='funcReset()'>RECOMEÇAR</button>");
     }
     else if (mheroi == "CA") {
         document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />");
         document.write("<p id='nomeh'>Você escolheu o capitão america!</p>");
         document.write("<br><img src=img/capitao-america.png>");
+        document.write("<button id='bt1' onclick='funcReset()'>RECOMEÇAR</button>");
     }
     else if (mheroi == "H") {
         document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />");
         document.write("<p id='nomeh'>Você escolheu o hulk!</p>");
         document.write("<br><img src=img/hulk.png>");
+        document.write("<button id='bt1' onclick='funcReset()'>RECOMEÇAR</button>");
     }
     else if (mheroi == "VN") {
         document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />");
         document.write("<p id='nomeh'>Você escolheu a viúva negra!</p>");
         document.write("<br><img src=img/viuva-negra.png>");
+        document.write("<button id='bt1' onclick='funcReset()'>RECOMEÇAR</button>");
     }
     else if (mheroi == "Spm") {
         document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />");
         document.write("<p id='nomeh'>Você escolheu o superman!</p>");
         document.write("<br><img src=img/superman.png>");
+        document.write("<button id='bt1' onclick='funcReset()'>RECOMEÇAR</button>");
     }
     else if (mheroi == "Bt") {
         document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />");
         document.write("<p id='nomeh'>Você escolheu o batman!</p>");
         document.write("<br><img src=img/batman.png>");
+        document.write("<button id='bt1' onclick='funcReset()'>RECOMEÇAR</button>");
     }
     else if (mheroi == "MM") {
         document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />");
         document.write("<p id='nomeh'>Você escolheu a mulher maravilha!</p>");
         document.write("<br><img src=img/mulher-maravilha.png>");
+        document.write("<button id='bt1' onclick='funcReset()'>RECOMEÇAR</button>");
     }
     else if (mheroi == "Fsh") {
         document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />");
         document.write("<p id='nomeh'>Você escolheu o flash!</p>");
         document.write("<br><img src=img/flash.png>");
+        document.write("<button id='bt1' onclick='funcReset()'>RECOMEÇAR</button>");
     }
     else if (mheroi == "Aq") {
         document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />");
         document.write("<p id='nomeh'>Você escolheu o aquaman!</p>");
         document.write("<br><img src=img/aquaman.png>");
+        document.write("<button id='bt1' onclick='funcReset()'>RECOMEÇAR</button>");
     }
 }
 
@@ -132,53 +142,66 @@ function funcCalc() {
 
     if (resultado >= 1 && resultado < 2) {
         document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />");
-        document.write("<p id='nomeh'>Você escolheu o homem de ferro!</p>");
+        document.write("<p id='nomeh'>O resultado foi o homem de ferro!</p>");
         document.write("<br><img src=img/homem-de-ferro.png>");
-
+        document.write("<button id='bt1' onclick='funcReset()'>RECOMEÇAR</button>");
     }
     else if (resultado >= 2 && resultado < 3) {
         document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />");
-        document.write("<p id='nomeh'>Você escolheu o homem aranha!</p>");
+        document.write("<p id='nomeh'>O resultado foi o homem aranha!</p>");
         document.write("<br><img src=img/homem-aranha.png>");
+        document.write("<button id='bt1' onclick='funcReset()'>RECOMEÇAR</button>");
     }
     else if (resultado >= 3 && resultado < 4) {
         document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />");
-        document.write("<p id='nomeh'>Você escolheu o capitão america!</p>");
+        document.write("<p id='nomeh'>O resultado foi o capitão america!</p>");
         document.write("<br><img src=img/capitao-america.png>");
+        document.write("<button id='bt1' onclick='funcReset()'>RECOMEÇAR</button>");
     }
     else if (resultado >= 4 && resultado < 5) {
         document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />");
-        document.write("<p id='nomeh'>Você escolheu o hulk!</p>");
+        document.write("<p id='nomeh'>O resultado foi o hulk!</p>");
         document.write("<br><img src=img/hulk.png>");
+        document.write("<button id='bt1' onclick='funcReset()'>RECOMEÇAR</button>");
     }
     else if (resultado >= 5 && resultado < 6) {
         document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />");
-        document.write("<p id='nomeh'>Você escolheu a viúva negra!</p>");
+        document.write("<p id='nomeh'>O resultado foi a viúva negra!</p>");
         document.write("<br><img src=img/viuva-negra.png>");
+        document.write("<button id='bt1' onclick='funcReset()'>RECOMEÇAR</button>");
     }
     else if (resultado >= 6 && resultado < 7) {
         document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />");
-        document.write("<p id='nomeh'>Você escolheu o superman!</p>");
+        document.write("<p id='nomeh'>O resultado foi o superman!</p>");
         document.write("<br><img src=img/superman.png>");
+        document.write("<button id='bt1' onclick='funcReset()'>RECOMEÇAR</button>");
     }
     else if (resultado >= 7 && resultado < 8) {
         document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />");
-        document.write("<p id='nomeh'>Você escolheu o batman!</p>");
+        document.write("<p id='nomeh'>O resultado foi o batman!</p>");
         document.write("<br><img src=img/batman.png>");
+        document.write("<button id='bt1' onclick='funcReset()'>RECOMEÇAR</button>");
     }
     else if (resultado >= 8 && resultado < 9) {
         document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />");
-        document.write("<p id='nomeh'>Você escolheu a mulher maravilha!</p>");
+        document.write("<p id='nomeh'>O resultado foi a mulher maravilha!</p>");
         document.write("<br><img src=img/mulher-maravilha.png>");
+        document.write("<button id='bt1' onclick='funcReset()'>RECOMEÇAR</button>");
     }
     else if (resultado >= 9 && resultado < 10) {
         document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />");
-        document.write("<p id='nomeh'>Você escolheu o flash!</p>");
+        document.write("<p id='nomeh'>O resultado foi o flash!</p>");
         document.write("<br><img src=img/flash.png>");
+        document.write("<button id='bt1' onclick='funcReset()'>RECOMEÇAR</button>");
     }
     else if (resultado >= 10 && resultado <= 10) {
         document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />");
-        document.write("<p id='nomeh'>Você escolheu o aquaman!</p>");
+        document.write("<p id='nomeh'>O resultado foi o aquaman!</p>");
         document.write("<br><img src=img/aquaman.png>");
+        document.write("<button id='bt1' onclick='funcReset()'>RECOMEÇAR</button>");
     }
+}
+
+function funcReset() {
+    document.location.reload();
 }

@@ -2,6 +2,12 @@ body {
     background-color: black;
 }
 
+input{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
 #div1 {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -52,11 +58,6 @@ img {
     margin: auto;
 }
 
-#tb {
-    height: 400px;
-    width: 300px;
-}
-
 button {
     border-style: ridge;
     border-color: rgb(49, 49, 49);
@@ -64,6 +65,11 @@ button {
     border-radius: 5px;
     width: 80px;
     height: 30px;
+}
+
+button:active {
+    transform: translate3D(0, -1px, 0) scale(0.97);
+    transition: all .4s ease;
 }
 
 #td {
@@ -74,6 +80,7 @@ button {
     color: white;
     text-align: center;
     font-size: 35px;
+    margin-top: 30px;
 }
 
 #tmudar {
@@ -85,6 +92,17 @@ button {
 #bt {
     display: block;
     margin: auto;
+}
+
+#bt1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: auto;
+    height: 50px;
+    text-align: center;
 }
 
 .margemN{
