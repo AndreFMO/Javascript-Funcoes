@@ -1,44 +1,97 @@
-body{
+body {
     background-color: black;
 }
 
-img{
-    height:380px;
+#div1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#txbox {
+    margin-bottom: 18px;
+}
+
+th {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    width: 400px;
+    height: 20px;
+}
+
+td {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    height: 100px;
+}
+
+#tdBorder1 {
+    border-radius: 100px 0px 0px 0px;
+}
+
+#tdBorder2 {
+    border-radius: 0px 0px 0px 100px;
+}
+
+#tdBorder3 {
+    border-radius: 0px 100px 0px 0px;
+}
+
+#tdBorder4 {
+    border-radius: 0px 0px 100px 0px;
+}
+
+img {
+    height: 380px;
     display: block;
     margin: auto;
 }
 
-#tb{
+#tb {
     height: 400px;
     width: 300px;
 }
 
-#tb2{
-    height: auto;
-    width: auto;
+button {
+    border-style: ridge;
+    border-color: rgb(49, 49, 49);
+    border-width: 3px;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
 }
 
-#td{
+#td {
     align-items: center;
 }
 
-#nomeh{
-    color:white;
+#nomeh {
+    color: white;
     text-align: center;
     font-size: 35px;
 }
 
-#tmudar{
-    color:white;
+#tmudar {
+    color: white;
     font-size: 20px;
+    text-align: center;
 }
 
-#bt{
+#bt {
     display: block;
     margin: auto;
 }
 
-#opc{
-    color:white;
+.margemN{
+    margin-bottom: 18px;
+}
+
+.opc {
+    color: white;
     font-size: 15px;
 }

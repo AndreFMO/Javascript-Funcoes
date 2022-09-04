@@ -11,52 +11,78 @@
 </head>
 
 <body>
-    <table border="1" bgcolor="#ffffff">
-        <tr bgcolor="#000000">
-            <th>
-                <p id="tmudar">Mudar de Herói?</p>
-            </th>
-        </tr>
-        <tr>
-            <td>
-                <table>
-                    <tr bgcolor="#000000">
-                        <td>
-                            <p id="tmudar">Universo Marvel</p>
-                        </td>
-                        <td>
-                            <p id="tmudar">Universo DC</p>
-                        </td>
-                    </tr>
-                    <tr bgcolor="#000000">
-                        <td>
-                            <script type="text/javascript">
-                                document.write("<p id='opc'><input type='radio' name='opth' value='HdF'>Homem de Ferro</p>");
-                                document.write("<p id='opc'><input type='radio' name='opth' value='HA'>Homem Aranha</p>");
-                                document.write("<p id='opc'><input type='radio' name='opth' value='CA'>Capitão America</p>");
-                                document.write("<p id='opc'><input type='radio' name='opth' value='H'>Hulk</p>");
-                                document.write("<p id='opc'><input type='radio' name='opth' value='VN'>Viúva Negra</p>");
-                            </script>
-                        </td>
-                        <td>
-                            <script type="text/javascript">
-                            document.write("<p id='opc'><input type='radio' name='opth' value='HdF'>Superman</p>");
-                            document.write("<p id='opc'><input type='radio' name='opth' value='HA'>Batman</p>");
-                            document.write("<p id='opc'><input type='radio' name='opth' value='CA'>Mulher Maravilha</p>");
-                            document.write("<p id='opc'><input type='radio' name='opth' value='H'>Flash</p>");
-                            document.write("<p id='opc'><input type='radio' name='opth' value='VN'>Aquaman</p>");
-                            </script>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-        <tr bgcolor="#000000">
-            <td>
-                <button id='bt' onclick='funcCalc()'>MUDAR</button>
-            </td>
-        </tr>
-    </table>
+    <div id="div1">
+        <table>
+            <tr bgcolor="#000000">
+                <th id="tdBorder1">
+                    <p id="tmudar">Mudar de Herói?</p>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr bgcolor="#000000">
+                            <th>
+                                <p id="tmudar">Universo Marvel</p>
+                            </th>
+                            <th>
+                                <p id="tmudar">Universo DC</p>
+                            </th>
+                        </tr>
+                        <tr bgcolor="#000000">
+                            <td>
+                                <p class='opc'><input type='radio' name='opth' value='HdF'>Homem de Ferro</p>
+                                <p class='opc'><input type='radio' name='opth' value='HA'>Homem Aranha</p>
+                                <p class='opc'><input type='radio' name='opth' value='CA'>Capitão America</p>
+                                <p class='opc'><input type='radio' name='opth' value='H'>Hulk</p>
+                                <p class='opc'><input type='radio' name='opth' value='VN'>Viúva Negra</p>
+                            </td>
+                            <td>
+                                <p class='opc'><input type='radio' name='opth' value='Spm'>Superman</p>
+                                <p class='opc'><input type='radio' name='opth' value='Bt'>Batman</p>
+                                <p class='opc'><input type='radio' name='opth' value='MM'>Mulher Maravilha</p>
+                                <p class='opc'><input type='radio' name='opth' value='Fsh'>Flash</p>
+                                <p class='opc'><input type='radio' name='opth' value='Aq'>Aquaman</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr bgcolor="#000000">
+                <th id="tdBorder2">
+                    <button id='bt' onclick='funcMudarH()'>MUDAR</button>
+                </th>
+            </tr>
+        </table>
+
+        <table>
+            <tr bgcolor="#000000">
+                <th id="tdBorder3">
+                    <p id="tmudar">Que tal tentar a sorte?</p>
+                </th>
+            </tr>
+            <tr>
+                <td id="th">
+                    <p id="tmudar">Escolha dois números de 1 a 10 e veja no que dá
+                        (O resultado de uma operação entre esses dois números resultará em um herói)</p>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" valign="center">
+                    <p class="opc">Primeiro número:</p>
+                    <input type="text" id="num1" size="2"><br>
+                    <p class="opc">Segundo número:</p>
+                    <input type="text" id="num2" class="margemN" size="2"><br>
+                </td>
+            </tr>
+            <tr bgcolor="#000000">
+                <th id="tdBorder4">
+                    <button id='bt' onclick='funcCalc()'>TENTAR</button>
+                </th>
+            </tr>
+        </table>
+    </div>
+
 </body>
 
 </html>
